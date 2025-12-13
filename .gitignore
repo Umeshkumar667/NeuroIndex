@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+env/
+.venv/
+*.venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Tests
+.pytest_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

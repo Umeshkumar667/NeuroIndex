@@ -1,0 +1,22 @@
+<svg width="900" height="420" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="160" width="160" height="80" fill="#E3F2FD"/>
+  <text x="45" y="205" font-size="14">Query</text>
+
+  <rect x="220" y="40" width="200" height="80" fill="#E8F5E9"/>
+  <text x="260" y="85" font-size="14">RAM Cache</text>
+
+  <rect x="220" y="160" width="200" height="80" fill="#FFFDE7"/>
+  <text x="260" y="205" font-size="14">Vector Index</text>
+
+  <rect x="220" y="280" width="200" height="80" fill="#F3E5F5"/>
+  <text x="260" y="325" font-size="14">Semantic Graph</text>
+
+  <rect x="520" y="160" width="240" height="80" fill="#ECEFF1"/>
+  <text x="580" y="205" font-size="14">SQLite Storage</text>
+
+  <line x1="180" y1="200" x2="220" y2="80" stroke="black"/>
+  <line x1="180" y1="200" x2="220" y2="200" stroke="black"/>
+  <line x1="180" y1="200" x2="220" y2="320" stroke="black"/>
+
+  <line x1="420" y1="200" x2="520" y2="200" stroke="black"/>
+</svg>
