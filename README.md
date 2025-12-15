@@ -28,7 +28,25 @@ This makes it ideal for:
 - Offline / local-first AI systems
 
 ---
+##Where NeuroIndex fits
 
+Text / Data
+      ↓
+Embedding Model ← OpenAI / HF / Cohere / Local
+      ↓
+NeuroIndex (memory + retrieval)
+      ↓
+LLM / Agent / Application
+
+##🔌 Integration patterns
+NeuroIndex can be used as:
+Memory layer for RAG pipelines
+Long-term memory for chatbots
+Knowledge base for document search
+Experience memory for agents
+Offline semantic retrieval system
+
+It does not depend on any specific model, framework, or cloud provider.
 
 ## 🚀 Quick Start
 from neuroindex import NeuroIndex
@@ -74,4 +92,5 @@ ni.get_stats()
 ## 📦 Installation
 ```bash
 pip install neuroindex
+
 
