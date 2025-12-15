@@ -10,7 +10,6 @@ It combines:
 
 Designed for **AI memory**, **RAG systems**, **chatbots**, and **semantic search pipelines**.
 
----
 
 ## ✨ Why NeuroIndex?
 
@@ -27,24 +26,31 @@ This makes it ideal for:
 - Long-running agents
 - Offline / local-first AI systems
 
----
-##Where NeuroIndex fits
+## Where NeuroIndex fits
+### 🧩 System Architecture
 
-Text / Data
-      ↓
-Embedding Model ← OpenAI / HF / Cohere / Local
-      ↓
-NeuroIndex (memory + retrieval)
-      ↓
-LLM / Agent / Application
+The typical data flow using NeuroIndex is as follows:
 
-##🔌 Integration patterns
-NeuroIndex can be used as:
-Memory layer for RAG pipelines
-Long-term memory for chatbots
-Knowledge base for document search
-Experience memory for agents
-Offline semantic retrieval system
+1.  **TEXT / DATA** (Input)
+
+    $\downarrow$
+3.  **[Embedding Model]** (e.g., OpenAI / Hugging Face / Local)
+
+     $\downarrow$
+5.  **[NeuroIndex]** (Memory + Hybrid Retrieval)
+
+    $\downarrow$
+7.  **[LLM / App / Agent / API]** (Output/Consumption)
+
+
+
+## 🔌 Integration patterns
+- NeuroIndex can be used as:
+- Memory layer for RAG pipelines
+- Long-term memory for chatbots
+- Knowledge base for document search
+- Experience memory for agents
+- Offline semantic retrieval system
 
 It does not depend on any specific model, framework, or cloud provider.
 
@@ -92,5 +98,6 @@ ni.get_stats()
 ## 📦 Installation
 ```bash
 pip install neuroindex
+
 
 
