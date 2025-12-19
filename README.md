@@ -53,6 +53,10 @@ TEXT / DATA
 
 It does not depend on any specific model, framework, or cloud provider.
 
+## 📦 Installation
+```bash
+pip install neuroindex
+```
 ## 🚀 Quick Start
 ```
 from neuroindex import NeuroIndex
@@ -95,6 +99,5 @@ for r in results:
 ni.get_stats()
 ```
 
-## 📦 Installation
-```bash
-pip install neuroindex
+
+
