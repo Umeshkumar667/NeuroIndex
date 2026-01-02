@@ -10,7 +10,7 @@ A high-performance memory system for AI applications combining:
 Example:
     >>> from neuroindex import NeuroIndex
     >>> import numpy as np
-    >>> 
+    >>>
     >>> with NeuroIndex(path="./memory", dim=384) as ni:
     ...     embedding = np.random.rand(384).astype('float32')
     ...     node_id = ni.add_document("Hello world", embedding)
@@ -24,13 +24,13 @@ Repository: https://github.com/Umeshkumar667/NeuroIndex
 
 from .core import NeuroIndex, SearchResult
 from .exceptions import (
-    NeuroIndexError,
-    DimensionMismatchError,
-    StorageError,
-    IndexCorruptedError,
-    DocumentNotFoundError,
-    InvalidInputError,
     ConcurrencyError,
+    DimensionMismatchError,
+    DocumentNotFoundError,
+    IndexCorruptedError,
+    InvalidInputError,
+    NeuroIndexError,
+    StorageError,
 )
 from .metrics import MetricsCollector
 
